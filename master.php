@@ -1,4 +1,5 @@
 <?php
+include "check_dependencies.php";
 include "variables.php";
 
 $kommando_for_tilkobling = "adb connect $ip_adresse:$debugging_port";
