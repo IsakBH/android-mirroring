@@ -2,7 +2,7 @@
 include "variables.php";
 
 $kommando_for_tilkobling = "adb connect $ip_adresse:$debugging_port";
-$scrcpy_kommando = "scrcpy";
+$scrcpy_kommando = "scrcpy --keyboard=uhid";
 
 if(shell_exec($kommando_for_tilkobling)){
     echo "Tilkoblet! \n";
