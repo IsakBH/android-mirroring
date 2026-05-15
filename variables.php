@@ -16,4 +16,5 @@ if ($device_data){
     echo "Alle variabler er nå satt! Kobler til mobilen med ADB... \n";
 } else {
     echo "Du må koble til mobilen din med bluetooth. Bruk noe som KDEConnect for å gjøre det enklere. Husk også å skru på 'Wireless Debugging' i developer options på mobilen din. \n";
+    exit;
 }
